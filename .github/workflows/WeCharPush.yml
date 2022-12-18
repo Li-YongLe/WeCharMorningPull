@@ -22,4 +22,4 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Run
-      run: dotnet run --project ./WeCharMorningPush/WeCharMorningPull/WeCharMorningPull.csproj
+      run: dotnet run --project /WeCharMorningPush/WeCharMorningPull/WeCharMorningPull.csproj
